@@ -16,10 +16,6 @@ module.exports = {
                 "2xl": "1400px",
             },
         },
-        backgroundColor: theme => ({
-            ...theme("colors"),
-            "bg-background": "#000"
-        }),
         extend: {
             colors: {
                 border: "hsl(var(--border))",
