@@ -1,4 +1,4 @@
-export const AuthLayout = ({ children }: {
+const AuthLayout = ({ children }: {
     children: React.ReactNode
 }) => {
     return (
